@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-function SearchBar({ value = "" }) {
+function SearchBar({ value = ""}) {
   const [inputValue,setInputValue] = useState(value)
   function onInputChange(e){
     setInputValue(e.target.value)
